@@ -12,7 +12,7 @@ The Image processing also make use of `OpenCV` and `NumPy`.
 
 Please configure these modules accordingly before using this project. 
 
-## Use of this project
+## How to Use
 The `encryption.py` and `encryption_v2.py` are the two iterations of implementations as explained above. Edit or run them just like all python programs as you like. The `.jpg` files are used for testing. 
 
 - The `base.jpg` is the base image
