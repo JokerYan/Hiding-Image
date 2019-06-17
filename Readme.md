@@ -12,6 +12,16 @@ The Image processing also make use of `OpenCV` and `NumPy`.
 
 Please configure these modules accordingly before using this project. 
 
+## Use of this project
+The `encryption.py` and `encryption_v2.py` are the two iterations of implementations as explained above. Edit or run them just like all python programs as you like. The `.jpg` files are used for testing. 
+
+- The `base.jpg` is the base image
+- The `icon.jpg` is the encrypted image
+- The `combined.jpe` is the combined image
+- The decrypted image will be shown at the end of the program upon completion
+
+The process of encryption and decryption may take some time, depending on the size of the image. Please be patient. 
+
 ## Additional Explaination
 Although this project is called "Image Encryption", the project does not contain any encryption process in the common sense. It is mainly used to hide the information without being noticed that the information is even transferred. If encryption is really required, it can be easily implemented in the serialize and deserialize process of the project, where the encrypted image is represented in a plain string. This also means that any general information can be hided in the base image similarly after serailization. 
 
